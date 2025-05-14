@@ -16,16 +16,14 @@ const CallToAction = () => {
           href="#" 
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-500 text-gray-800 font-medium px-6 py-2 rounded hover:bg-yellow-600 transform transition duration-300 hover:scale-105"
-        >
+          className="bg-yellow-500 text-gray-800 font-medium px-6 py-2 rounded hover:bg-yellow-600 transform transition duration-300 hover:scale-105">
           Invest Now
         </a>
         <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-2 rounded border border-[hsl(182,75%,14%)] text-[hsl(182,75%,14%)] font-medium hover:bg-[hsl(182,75%,14%)] hover:text-white transition duration-300"
-        >
+          className="flex items-center gap-2 px-6 py-2 rounded border border-[hsl(182,75%,14%)] text-[hsl(182,75%,14%)] font-medium hover:bg-[hsl(182,75%,14%)] hover:text-white transition duration-300">
           Try Our Calculator <ArrowRight className="w-4 h-4" />
         </a>
       </div>

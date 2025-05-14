@@ -381,24 +381,21 @@ const Calculator = () => {
                   <button
                     className={`px-3 py-1 text-sm rounded-md ${investmentAmount === 50000 ? "bg-[#d4af37] text-white" : "border border-gray-300"
                       }`}
-                    onClick={() => handleAmountButtonClick(50000)}
-                  >
+                    onClick={() => handleAmountButtonClick(50000)}>
                     ₹50,000
                   </button>
                   <button
                     className={`px-3 py-1 text-sm rounded-md ${investmentAmount === 100000 ? "bg-[#d4af37] text-white" : "border border-gray-300"
                       }`}
-                    onClick={() => handleAmountButtonClick(100000)}
-                  >
+                    onClick={() => handleAmountButtonClick(100000)}>
                     ₹1 Lakh
                   </button>
                   <button
                     className={`px-3 py-1 text-sm rounded-md ${investmentAmount === 1000000 ? "bg-[#d4af37] text-white" : "border border-gray-300"
                       }`}
-                    onClick={() => handleAmountButtonClick(1000000)}
-                  >
+                    onClick={() => handleAmountButtonClick(1000000)}>
                     ₹10 Lakhs
-                  </button>
+                  </button> 
                 </div>
 
                 <div className="relative">
